@@ -1,4 +1,4 @@
-
+## An improved, chromosome-level genome of giant panda (Ailuropoda melanoleuca)
 | Files                                                            | Description | MD5                               |
 |------------------------------------------------------------------| ---- |-----------------------------------|
 | ./structure_annotation/pasa2.longest.filter.gff3.addNRfunc.gff3	 | Gene annotation of the GPv1 genome in gff3 format	| b02d036c3a1d6ebdcd1df69e2748ddf4  |
