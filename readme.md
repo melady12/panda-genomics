@@ -1,7 +1,8 @@
-./structure_annotation/pasa2.longest.filter.gff3.addNRfunc.gff3	"Gene annotation of the GPv1 genome in gff3 format"	b02d036c3a1d6ebdcd1df69e2748ddf4
-./structure_annotation/pasa2.longest.filter.cds.fa	"Sequence of CDS in fasta format"	d168bf64ba0a8090e6d1b306d5a4c2a0
-./structure_annotation/pasa2.longest.filter.cds.fa.fai	"Length of CDS in fai format"	c3c8346162d5471534367b6145b1b286
-./structure_annotation/pasa2.longest.filter.pep.fa	"Sequence of PEP in fasta format"	49eda0f5993c1ef7df14e185bbbb8ddd
+
+| ./structure_annotation/pasa2.longest.filter.gff3.addNRfunc.gff3	| "Gene annotation of the GPv1 genome in gff3 format"	| b02d036c3a1d6ebdcd1df69e2748ddf4 |
+| ./structure_annotation/pasa2.longest.filter.cds.fa | "Sequence of CDS in fasta format"	| d168bf64ba0a8090e6d1b306d5a4c2a0 |
+| ./structure_annotation/pasa2.longest.filter.cds.fa.fai	| "Length of CDS in fai format"	| c3c8346162d5471534367b6145b1b286 |
+| ./structure_annotation/pasa2.longest.filter.pep.fa |	"Sequence of PEP in fasta format"	| 49eda0f5993c1ef7df14e185bbbb8ddd |
 plot.resolution.R	"R script for ploting resolution evaluation with Hi-C data"	0aa94da61a56f7cc5c0f1a21b0e6086f
 Mapping.vioplot.plot.R	"R script for ploting mapping ratio of the five available giant panda assemblies"	d8dc63aa144a9ca94a302fdea702c241
 PC1.and.gene.density.100Kb.R	"R script for analyzing and ploting AB-compartments under 100Kb resolution"	d3963d6d2e9088df54ef5947079689ac
