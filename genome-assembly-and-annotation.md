@@ -1,10 +1,9 @@
-### panda genome assembly pipeline tutorial
-###  Step 1 定版基因组组装步骤、软件类型及软件参数
-第一步: 组装contig序列
+### panda genome assembly pipeline tutorial 定版基因组组装步骤、软件类型及软件参数
+###  Step 1  组装contig序列
 采用pacbio平台进行测序，测得三代数据量为282.45G，覆盖深度为113.89×（按照survey预估的基因组大小2.48G计算）。使用全部三代数据，利用falcon软件进行初步组装得到基因组的contigs序列。
 
 ```
-#Title	Total_length	Total_number	Num>=2000	N50_length	N50_number	N90_length	N90_number
+Title	Total_length	Total_number	Num>=2000	N50_length	N50_number	N90_length	N90_number
 Contig	2,484,294,429	1,761	1,761	28,517,922	27	4,132,123	112
 ```
 软件名：faclon
@@ -19,7 +18,7 @@ ovlp_HPCdaligner_option = -v -B128  -t16  -e.96 -k16  -h300  -l1000 -w8 -T16 -s1
 使用全部的三代数据，利用arrowr算法对基因组的contigs序列进行三代纠错，得到纠错后的基因组序列。
 
 ```
-#Title	Total_length	Total_number	Num>=2000	N50_length	N50_number	N90_length	N90_number
+Title	Total_length	Total_number	Num>=2000	N50_length	N50_number	N90_length	N90_number
 Contig	2,488,096,155	1761	1761	28,564,904	27	4,137,256	112
 ```
 算法：arrow
@@ -29,7 +28,7 @@ Contig	2,488,096,155	1761	1761	28,564,904	27	4,137,256	112
 ### Step 3 对基因组进行二代纠错
 通过Illumina Hiseq测序平台进行双末端测序，获得的总测序量为450.86G，覆盖深度为181.80×。利用pilon软件，对基因组进行二代纠错。
 ```
-#Title	Total_length	Total_number	Num>=2000	N50_length	N50_number	N90_length	N90_number
+Title	Total_length	Total_number	Num>=2000	N50_length	N50_number	N90_length	N90_number
 Contig	2,480,455,648	1761	1761	28,556,066	27	4,259,604	111
 ```
 软件：pilon
