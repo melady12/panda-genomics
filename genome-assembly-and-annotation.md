@@ -1,4 +1,4 @@
-### panda genome assembly pipeline tutorial 定版基因组组装步骤、软件类型及软件参数
+### panda genome assembly tutorial 定版基因组组装步骤、软件类型及软件参数
 ###  Step 1  组装contig序列
 采用pacbio平台进行测序，测得三代数据量为282.45G，覆盖深度为113.89×（按照survey预估的基因组大小2.48G计算）。使用全部三代数据，利用falcon软件进行初步组装得到基因组的contigs序列。
 
